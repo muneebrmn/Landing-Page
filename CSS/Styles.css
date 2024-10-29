@@ -1,10 +1,10 @@
 @font-face {
     font-family: PoppinsMedium;
-    src: url(./Fonts/Poppins-Medium.ttf);
+    src: url(../Fonts/Poppins-Medium.ttf);
 }
 @font-face {
     font-family: PoppinsRegular;
-    src: url(./Fonts/Poppins-Regular.ttf);
+    src: url(../Fonts/Poppins-Regular.ttf);
 }
 
 *{
@@ -15,7 +15,7 @@
 
 body{
     min-height: 100vh;
-    background-image: url(./Images/Background.jpg);
+    background-image: url(../Images/Background.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
