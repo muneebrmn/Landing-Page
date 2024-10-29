@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="/CSS/Styles.css">
+</head>
+<body>
+        <nav>
+            <ul class="sidebar">
+                <li onclick=hideSidebar()><a href="#"><svg class="close" xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 96 960 960" width="30"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+                <li class="nav-items"><a href="#">Home</a></li>
+                <li class="nav-items"><a href="#">About</a></li>
+                <li class="nav-items"><a href="#">Services</a></li>
+                <li class="nav-items"><a href="#">Contact</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">muneebrmn</a></li>
+                <li class="hide-on-mobile"><a href="#">Home</a></li>
+                <li class="hide-on-mobile"><a href="#">About</a></li>
+                <li class="hide-on-mobile"><a href="#">Services</a></li>
+                <li class="hide-on-mobile"><a href="#">Contact</a></li>
+                <li class="menu-btn" onclick=showSidebar()><a href="#"><svg class="menu" xmlns="http://www.w3.org/2000/svg" height="30" viewBox="0 96 960 960" width="30"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+            </ul>
+        </nav>
+
+        <h3 class="heading">NATURE<br>Mountains</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi gravida vitae leo et pellentesque. Praesent aliquet erat ac purus vestibulum blandit nec quis dui. Mauris vel metus iaculis, feugiat dolor sed, aliquet ante. Quisque aliquet sit amet sapien id tempor. Fusce nec pulvinar tortor, eget convallis turpis. Mauris ultricies rhoncus dui. Vivamus nibh neque, dignissim quis posuere sit amet, porta vel arcu. Morbi viverra ultrices iaculis. Proin facilisis elit et elit ornare sodales. Proin eu augue molestie, eleifend nisl scelerisque, feugiat libero. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Sed ut fermentum nunc. Morbi pellentesque, mi non sagittis pharetra, tellus eros condimentum purus, quis viverra justo arcu vitae orci. Nam gravida magna magna, et ultricies turpis sodales non.</p>
+
+        <footer>
+            <h4>Made By Muneeb Ur Rehman</h4>
+        </footer>
+
+        <script>
+            function showSidebar(){
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'flex'
+            }
+            function hideSidebar(){
+                const sidebar = document.querySelector('.sidebar')
+                sidebar.style.display = 'none'
+
+            }
+        </script>
+    
+</body>
+</html>
